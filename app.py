@@ -25,7 +25,7 @@ if uploaded_files:
     hf_llm = HuggingFaceEndpoint(
         repo_id="mistralai/Mistral-7B-Instruct-v0.2", 
         task="conversational",   
-        huggingfacehub_api_token="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" 
+        huggingfacehub_api_token="" 
     )
 
     llm = ChatHuggingFace(llm=hf_llm)
