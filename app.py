@@ -47,8 +47,8 @@ if uploaded_files:
         Powered by LangChain + HuggingFace
         """)
         st.divider()
-        st.info("Tip: Ask research-style questions like *'Summarize limitations of AI in healthcare'*")
-    st.title("Research Mate Chatbot")
+    st.title("Research Mate")
+    st.subtitle("AI Research Mate ChatBot")
     if "messages" not in st.session_state:
         st.session_state.messages = []
 
