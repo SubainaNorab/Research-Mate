@@ -48,7 +48,7 @@ if uploaded_files:
         """)
         st.divider()
     st.title("Research Mate")
-    st.subtitle("AI Research Mate ChatBot")
+    st.subheader("AI Research Mate ChatBot")
     if "messages" not in st.session_state:
         st.session_state.messages = []
 
